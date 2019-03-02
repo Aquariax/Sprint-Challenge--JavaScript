@@ -30,13 +30,26 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. Describe the biggest difference between `.forEach` & `.map`.
 
+    forEach() method doesn't actually return anything while map() returns values and actually returns a new Array.
+
 2. What is the difference between a function and a method?
+
+    All data that is passed to a function is explicitly passed. A method is a piece of code that is called by a name that is associated with an object.
 
 3. What is closure?
 
+    an inner function has access to the outer function's variables 
+
 4. Describe the four rules of the 'this' keyword.
 
+    * 1. window - binding top level widow is the first bind and the most broad
+    * 2. implicit - when a function/object is called with a dot before it
+    * 3. new - creating a new object from the constructor 
+    * 4. explicit - specifically assigning the this keyword 
+
 5. Why do we need super() in an extended class?
+
+    to get the class to inherit the properties from its constructor class.
 
 ## Project Set up
 
